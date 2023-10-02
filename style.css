@@ -1,0 +1,120 @@
+.nav-section{
+    position: static;
+    background-color: #ffffff;
+    width: 100vw;
+    top: 0px;
+}
+.vertical-line{
+    height: 65px;
+    border-left: 2px solid #fcfcfc ;
+}
+
+.location>h5{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.location>p{
+    margin: 0px;
+    font-weight: 450;
+    font-size: 15px;
+}
+.search-div{
+    background-color: #f8f8f8;
+    width: 40vw;
+    padding-inline: 10px;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+}
+.search-div>input{
+    border: none;
+    height: 40px;
+    background-color: #f8f8f8;
+}
+.hero-section>img{
+    height: 230px;
+    width: 90vw;
+}
+.container-2{
+    width: 88vw;
+    overflow: scroll;
+    margin-top: 10px;
+    margin: auto;
+}
+.container2-list{
+    white-space: nowrap;
+}
+.container2-list>img{
+    display: inline-block;
+    width: 350px;
+    padding-inline: 5px;
+}
+.container-3{
+    width: 95vw;
+    margin: auto;
+
+}
+.container3-list{
+    white-space: wrap;
+    margin-left: 35px;
+}
+.container3-list>img{
+    display: inline-block;
+    width: 120px;
+    height: 200px;
+}
+.container-4{
+    width: 88vw;
+    margin: auto;
+}
+.time{
+    background-color: #f8f8f8;
+    width: 65px;
+    font-size: 11px;
+    color: black;
+    margin-top: 5px;
+}
+.weight{
+    font-size: 13px;
+    color: #666666;
+}
+.add-button{
+    border-style: 1px solid green !important;
+}
+.my-card>img{
+    display: inline-block !important;
+    width: 100px;
+    
+}
+.card{
+   display: inline-block;
+   width: 220px;
+   box-sizing: border-box;
+   margin-inline: 10px;
+   border-radius: 15px !important;
+   white-space: wrap;
+}
+
+.container4-list{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   overflow-x: scroll;
+   margin: auto;
+}
+
+@media screen and (max-width:768px){
+    .nav-section{
+        flex-direction: column !important;
+    }
+    .vertical-line,.hero-section>img{
+        display: none !important;
+    }
+    .login-btn,.search-bar{
+        width: 90%;
+    }
+    .container-2{
+        margin-top: 20px;
+    }
+}
+
